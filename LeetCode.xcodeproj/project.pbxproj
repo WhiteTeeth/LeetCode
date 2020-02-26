@@ -25,6 +25,10 @@
 /* Begin PBXFileReference section */
 		2D571509240443E700B2D245 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D57150C240443E700B2D245 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D5715142404442200B2D245 /* ValidUtf8.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ValidUtf8.hpp; sourceTree = "<group>"; };
+		2D5715152404442200B2D245 /* AtMostNGivenDigitSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtMostNGivenDigitSet.h; sourceTree = "<group>"; };
+		2D5715162404442200B2D245 /* 17.21.Trap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 17.21.Trap.h; sourceTree = "<group>"; };
+		2D5715172404442200B2D245 /* ThreeEqualParts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeEqualParts.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,21 @@
 		2D57150B240443E700B2D245 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				2D571513240443F600B2D245 /* leetcode */,
 				2D57150C240443E700B2D245 /* main.m */,
 			);
 			path = LeetCode;
+			sourceTree = "<group>";
+		};
+		2D571513240443F600B2D245 /* leetcode */ = {
+			isa = PBXGroup;
+			children = (
+				2D5715162404442200B2D245 /* 17.21.Trap.h */,
+				2D5715152404442200B2D245 /* AtMostNGivenDigitSet.h */,
+				2D5715172404442200B2D245 /* ThreeEqualParts.h */,
+				2D5715142404442200B2D245 /* ValidUtf8.hpp */,
+			);
+			path = leetcode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
