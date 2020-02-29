@@ -1,0 +1,54 @@
+//
+//  No.239.maxSlidingWindow.h
+//  LeetCode
+//
+//  Created by baiya on 2020/3/1.
+//  Copyright © 2020 baiya. All rights reserved.
+//
+
+#ifndef No_239_maxSlidingWindow_h
+#define No_239_maxSlidingWindow_h
+
+#include <deque>
+#include <vector>
+#include <string>
+#include <sstream>
+
+vector<int> maxSlidingWindow(vector<int>& nums, int k) {
+    deque<int> ideq;
+    vector<int> result; // 存放下标
+    int size = nums.size();
+    for (int i = 0; i < size; i++) {
+        if (!ideq.empty() && ideq.front() < i + 1 - k) {
+            ideq.pop_front();
+        }
+        while (!ideq.empty() && nums[i] > nums[ideq.back()]) {
+            ideq.pop_back();
+        }
+                
+        ideq.push_back(i);
+        if (i >= k -1) {
+            result.push_back(nums[ideq.front()]);
+        }
+    }
+    return result;
+}
+void printVector(vector<int> nums) {
+    std::ostringstream oss;
+    std::copy(nums.begin(), nums.end(), std::ostream_iterator<int>(oss, ","));
+    std::cout << oss.str() << std::endl;
+}
+
+void testNo239() {
+    vector<int> nums = {1,3,-1,-3,5,3,6,7};
+    int k = 8;
+    vector<int> result = maxSlidingWindow(nums, k);
+    printVector(result);
+    k = 1;
+    result = maxSlidingWindow(nums, k);
+    printVector(result);
+}
+
+
+
+#endif /* No_239_maxSlidingWindow_h */
