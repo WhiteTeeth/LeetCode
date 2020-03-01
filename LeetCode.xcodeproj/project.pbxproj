@@ -28,13 +28,13 @@
 		2D57150C240443E700B2D245 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		2D5715142404442200B2D245 /* ValidUtf8.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ValidUtf8.hpp; sourceTree = "<group>"; };
 		2D5715152404442200B2D245 /* AtMostNGivenDigitSet.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AtMostNGivenDigitSet.hpp; sourceTree = "<group>"; };
-		2D5715162404442200B2D245 /* 17.21.Trap.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = 17.21.Trap.hpp; sourceTree = "<group>"; };
+		2D5715162404442200B2D245 /* No.42.Trap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = No.42.Trap.h; sourceTree = "<group>"; };
 		2D5715172404442200B2D245 /* ThreeEqualParts.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ThreeEqualParts.hpp; sourceTree = "<group>"; };
 		2D87AC3D2407EB7500D180EA /* No.72.minDistance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.72.minDistance.h; sourceTree = "<group>"; };
 		2D87AC4A2407FC6E00D180EA /* LeetCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeetCodeTests.m; sourceTree = "<group>"; };
 		2D87AC4C2407FC6E00D180EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DAE4CCB240AC664003A3E91 /* No.239.maxSlidingWindow.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = No.239.maxSlidingWindow.hpp; sourceTree = "<group>"; };
-		2DDAD61D2406D65600C6E86D /* No778_SwimInWater.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = No778_SwimInWater.hpp; sourceTree = "<group>"; };
+		2DDAD61D2406D65600C6E86D /* No.778.SwimInWater.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = No.778.SwimInWater.hpp; sourceTree = "<group>"; };
 		2DDAD61F2406D7FD00C6E86D /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -79,14 +79,14 @@
 		2D571513240443F600B2D245 /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
-				2D5715162404442200B2D245 /* 17.21.Trap.hpp */,
 				2D5715152404442200B2D245 /* AtMostNGivenDigitSet.hpp */,
-				2D5715172404442200B2D245 /* ThreeEqualParts.hpp */,
-				2D5715142404442200B2D245 /* ValidUtf8.hpp */,
-				2DDAD61D2406D65600C6E86D /* No778_SwimInWater.hpp */,
 				2D1BE2EF2407A3E3008A0141 /* No.15.threeSum.h */,
+				2D5715162404442200B2D245 /* No.42.Trap.h */,
 				2D87AC3D2407EB7500D180EA /* No.72.minDistance.h */,
 				2DAE4CCB240AC664003A3E91 /* No.239.maxSlidingWindow.hpp */,
+				2DDAD61D2406D65600C6E86D /* No.778.SwimInWater.hpp */,
+				2D5715172404442200B2D245 /* ThreeEqualParts.hpp */,
+				2D5715142404442200B2D245 /* ValidUtf8.hpp */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";

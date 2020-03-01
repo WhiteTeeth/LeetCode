@@ -1,7 +1,8 @@
 //
 //  17.21.Solution.h
-//  面试17.21 直方图的水量 https://leetcode-cn.com/problems/volume-of-histogram-lcci/
-//
+//  42. 接雨水
+//  https://leetcode-cn.com/problems/volume-of-histogram-lcci/
+//  https://leetcode-cn.com/problems/trapping-rain-water/
 //  Created by baiya on 2020/2/25.
 //  Copyright © 2020 engleliu. All rights reserved.
 //
