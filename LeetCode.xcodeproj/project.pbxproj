@@ -47,6 +47,7 @@
 		2DDAD61F2406D7FD00C6E86D /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
 		2DEB03A8241D2A5B003832A0 /* No.221.maximalSquare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.221.maximalSquare.h; sourceTree = "<group>"; };
 		2DEB03A9241D3D91003832A0 /* No.5.longestPalindrome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.5.longestPalindrome.h; sourceTree = "<group>"; };
+		2DEB03AA241D4ABA003832A0 /* No.48.rotate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.48.rotate.h; sourceTree = "<group>"; };
 		2DF386B12410292600068F4F /* No.78.subsets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.78.subsets.h; sourceTree = "<group>"; };
 		2DF386B224103ADF00068F4F /* No.338.countBits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.338.countBits.h; sourceTree = "<group>"; };
 		2DF386D8241123F700068F4F /* No.416.canPartition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.416.canPartition.h; sourceTree = "<group>"; };
@@ -125,6 +126,7 @@
 				2DDAD61D2406D65600C6E86D /* No.778.SwimInWater.hpp */,
 				2D5715152404442200B2D245 /* No.902.AtMostNGivenDigitSet.hpp */,
 				2D5715172404442200B2D245 /* No.927.ThreeEqualParts.hpp */,
+				2DEB03AA241D4ABA003832A0 /* No.48.rotate.h */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
