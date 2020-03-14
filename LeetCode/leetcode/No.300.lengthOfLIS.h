@@ -1,5 +1,5 @@
 //
-//  No.152.maxProduct.h
+//  No.300.lengthOfLIS.h
 //  LeetCode
 //
 //  300. 最长上升子序列
@@ -8,8 +8,8 @@
 //  Copyright © 2020 baiya. All rights reserved.
 //
 
-#ifndef No_152_maxProduct_h
-#define No_152_maxProduct_h
+#ifndef No_300_lengthOfLIS_h
+#define No_300_lengthOfLIS_h
 
 #include <vector>
 
@@ -55,4 +55,4 @@ void testLengthOfLIS()
     assert(result == 6);
 }
 
-#endif /* No_152_maxProduct_h */
+#endif /* No_300_lengthOfLIS_h */
