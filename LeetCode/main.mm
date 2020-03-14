@@ -25,6 +25,7 @@
 #import "leetcode/No.152.maxProduct.h"
 #import "leetcode/No.96.numTrees.h"
 #import "leetcode/No.221.maximalSquare.h"
+#import "leetcode/No.5.longestPalindrome.h"
 
 int main(int argc, const char * argr[]) {
     @autoreleasepool {
@@ -50,7 +51,8 @@ int main(int argc, const char * argr[]) {
 //        testWordBreak();
 //        testMaxProduct();
 //        testNumTrees();
-        testMaximalSquare();
+//        testMaximalSquare();
+        testLongestPalindrome();
         NSLog(@"test end");
     }
     return 0;
