@@ -38,6 +38,7 @@
 		2D5A2A95240D73490040B2EC /* No.84.largestRectangleArea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.84.largestRectangleArea.h; sourceTree = "<group>"; };
 		2D5A2ABC240DFF910040B2EC /* No.128.longestConsecutive.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = No.128.longestConsecutive.hpp; sourceTree = "<group>"; };
 		2D5A2AC0240E217B0040B2EC /* No.32.longestValidParentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.32.longestValidParentheses.h; sourceTree = "<group>"; };
+		2D7E3D4C241CDDEA0096D893 /* No.152.maxProduct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.152.maxProduct.h; sourceTree = "<group>"; };
 		2D87AC3D2407EB7500D180EA /* No.72.minDistance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.72.minDistance.h; sourceTree = "<group>"; };
 		2D87AC4A2407FC6E00D180EA /* LeetCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeetCodeTests.m; sourceTree = "<group>"; };
 		2D87AC4C2407FC6E00D180EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -104,21 +105,22 @@
 				2D87AC3D2407EB7500D180EA /* No.72.minDistance.h */,
 				2DF386B12410292600068F4F /* No.78.subsets.h */,
 				2D5A2A95240D73490040B2EC /* No.84.largestRectangleArea.h */,
+				2DF386DB241140D300068F4F /* No.96.numTrees.h */,
 				2D5A2ABC240DFF910040B2EC /* No.128.longestConsecutive.hpp */,
+				2D56BA4D241B7ACA0024DE41 /* No.139.wordBreak.h */,
 				2DAE4CCB240AC664003A3E91 /* No.239.maxSlidingWindow.hpp */,
+				2DF386DC2411637500068F4F /* No.279.numSquares.h */,
+				2D56BA0224194F610024DE41 /* No.300.lengthOfLIS.h */,
+				2D56B9F62418D84A0024DE41 /* No.309.maxProfit.h */,
+				2DF386DD241167E000068F4F /* No.322.coinChange.h */,
 				2DF386B224103ADF00068F4F /* No.338.countBits.h */,
 				2DF386D8241123F700068F4F /* No.416.canPartition.h */,
+				2D56B9A82417DD860024DE41 /* No.494.findTargetSumWays.h */,
+				2D56B9D02418A72D0024DE41 /* No.647.countSubstrings.h */,
 				2DDAD61D2406D65600C6E86D /* No.778.SwimInWater.hpp */,
 				2D5715172404442200B2D245 /* ThreeEqualParts.hpp */,
 				2D5715142404442200B2D245 /* ValidUtf8.hpp */,
-				2DF386DB241140D300068F4F /* No.96.numTrees.h */,
-				2DF386DC2411637500068F4F /* No.279.numSquares.h */,
-				2DF386DD241167E000068F4F /* No.322.coinChange.h */,
-				2D56B9A82417DD860024DE41 /* No.494.findTargetSumWays.h */,
-				2D56B9D02418A72D0024DE41 /* No.647.countSubstrings.h */,
-				2D56B9F62418D84A0024DE41 /* No.309.maxProfit.h */,
-				2D56BA0224194F610024DE41 /* No.300.lengthOfLIS.h */,
-				2D56BA4D241B7ACA0024DE41 /* No.139.wordBreak.h */,
+				2D7E3D4C241CDDEA0096D893 /* No.152.maxProduct.h */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";

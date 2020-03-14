@@ -22,6 +22,8 @@
 #import "leetcode/No.647.countSubstrings.h"
 #import "leetcode/No.300.lengthOfLIS.h"
 #import "leetcode/No.139.wordBreak.h"
+#import "leetcode/No.152.maxProduct.h"
+#import "leetcode/No.96.numTrees.h"
 
 int main(int argc, const char * argr[]) {
     @autoreleasepool {
@@ -44,7 +46,9 @@ int main(int argc, const char * argr[]) {
 //        testFindTargetSumWays();
 //        testCountSubstrings();
 //        testLengthOfLIS();
-        testWordBreak();
+//        testWordBreak();
+//        testMaxProduct();
+        testNumTrees();
         NSLog(@"test end");
     }
     return 0;
