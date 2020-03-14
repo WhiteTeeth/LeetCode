@@ -2,6 +2,8 @@
 //  ThreeEqualParts.h
 //  CPlusTest
 //
+//  927. 三等分
+//  https://leetcode-cn.com/problems/three-equal-parts/
 //  Created by baiya on 2020/2/24.
 //  Copyright © 2020 engleliu. All rights reserved.
 //
@@ -13,8 +15,7 @@
 
 using namespace std;
 
-vector<int> threeEqualParts() {
-    vector<int> A = {1, 0, 1, 0, 1};
+vector<int> threeEqualParts(vector<int>& A) {
     // 遍历查找1的个数并缓存位置
     vector<int> indexVec;
     int size = A.size();
@@ -28,7 +29,7 @@ vector<int> threeEqualParts() {
         return {-1, -1};
     }
     if (sum == 0) {
-        return {0 , 1};
+        return {0 , size - 1};
     }
     // 三等分确认位置
     int firStart = indexVec[0];

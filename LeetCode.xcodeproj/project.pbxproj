@@ -31,10 +31,10 @@
 		2D56BA4D241B7ACA0024DE41 /* No.139.wordBreak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.139.wordBreak.h; sourceTree = "<group>"; };
 		2D571509240443E700B2D245 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D57150C240443E700B2D245 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
-		2D5715142404442200B2D245 /* ValidUtf8.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ValidUtf8.hpp; sourceTree = "<group>"; };
-		2D5715152404442200B2D245 /* AtMostNGivenDigitSet.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AtMostNGivenDigitSet.hpp; sourceTree = "<group>"; };
+		2D5715142404442200B2D245 /* No.393.ValidUtf8.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = No.393.ValidUtf8.hpp; sourceTree = "<group>"; };
+		2D5715152404442200B2D245 /* No.902.AtMostNGivenDigitSet.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = No.902.AtMostNGivenDigitSet.hpp; sourceTree = "<group>"; };
 		2D5715162404442200B2D245 /* No.42.Trap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = No.42.Trap.h; sourceTree = "<group>"; };
-		2D5715172404442200B2D245 /* ThreeEqualParts.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ThreeEqualParts.hpp; sourceTree = "<group>"; };
+		2D5715172404442200B2D245 /* No.927.ThreeEqualParts.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = No.927.ThreeEqualParts.hpp; sourceTree = "<group>"; };
 		2D5A2A95240D73490040B2EC /* No.84.largestRectangleArea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.84.largestRectangleArea.h; sourceTree = "<group>"; };
 		2D5A2ABC240DFF910040B2EC /* No.128.longestConsecutive.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = No.128.longestConsecutive.hpp; sourceTree = "<group>"; };
 		2D5A2AC0240E217B0040B2EC /* No.32.longestValidParentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.32.longestValidParentheses.h; sourceTree = "<group>"; };
@@ -45,6 +45,7 @@
 		2DAE4CCB240AC664003A3E91 /* No.239.maxSlidingWindow.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = No.239.maxSlidingWindow.hpp; sourceTree = "<group>"; };
 		2DDAD61D2406D65600C6E86D /* No.778.SwimInWater.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = No.778.SwimInWater.hpp; sourceTree = "<group>"; };
 		2DDAD61F2406D7FD00C6E86D /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
+		2DEB03A8241D2A5B003832A0 /* No.221.maximalSquare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.221.maximalSquare.h; sourceTree = "<group>"; };
 		2DF386B12410292600068F4F /* No.78.subsets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.78.subsets.h; sourceTree = "<group>"; };
 		2DF386B224103ADF00068F4F /* No.338.countBits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.338.countBits.h; sourceTree = "<group>"; };
 		2DF386D8241123F700068F4F /* No.416.canPartition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.416.canPartition.h; sourceTree = "<group>"; };
@@ -96,7 +97,6 @@
 		2D571513240443F600B2D245 /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
-				2D5715152404442200B2D245 /* AtMostNGivenDigitSet.hpp */,
 				2D1BE2EF2407A3E3008A0141 /* No.15.threeSum.h */,
 				2D5A2AC0240E217B0040B2EC /* No.32.longestValidParentheses.h */,
 				2D5715162404442200B2D245 /* No.42.Trap.h */,
@@ -108,19 +108,21 @@
 				2DF386DB241140D300068F4F /* No.96.numTrees.h */,
 				2D5A2ABC240DFF910040B2EC /* No.128.longestConsecutive.hpp */,
 				2D56BA4D241B7ACA0024DE41 /* No.139.wordBreak.h */,
+				2D7E3D4C241CDDEA0096D893 /* No.152.maxProduct.h */,
+				2DEB03A8241D2A5B003832A0 /* No.221.maximalSquare.h */,
 				2DAE4CCB240AC664003A3E91 /* No.239.maxSlidingWindow.hpp */,
 				2DF386DC2411637500068F4F /* No.279.numSquares.h */,
 				2D56BA0224194F610024DE41 /* No.300.lengthOfLIS.h */,
 				2D56B9F62418D84A0024DE41 /* No.309.maxProfit.h */,
 				2DF386DD241167E000068F4F /* No.322.coinChange.h */,
 				2DF386B224103ADF00068F4F /* No.338.countBits.h */,
+				2D5715142404442200B2D245 /* No.393.ValidUtf8.hpp */,
 				2DF386D8241123F700068F4F /* No.416.canPartition.h */,
 				2D56B9A82417DD860024DE41 /* No.494.findTargetSumWays.h */,
 				2D56B9D02418A72D0024DE41 /* No.647.countSubstrings.h */,
 				2DDAD61D2406D65600C6E86D /* No.778.SwimInWater.hpp */,
-				2D5715172404442200B2D245 /* ThreeEqualParts.hpp */,
-				2D5715142404442200B2D245 /* ValidUtf8.hpp */,
-				2D7E3D4C241CDDEA0096D893 /* No.152.maxProduct.h */,
+				2D5715152404442200B2D245 /* No.902.AtMostNGivenDigitSet.hpp */,
+				2D5715172404442200B2D245 /* No.927.ThreeEqualParts.hpp */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";

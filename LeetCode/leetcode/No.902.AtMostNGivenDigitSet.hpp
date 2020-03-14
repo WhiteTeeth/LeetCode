@@ -2,6 +2,8 @@
 //  AtMostNGivenDigitSet.h
 //  CPlusTest
 //
+//  902. 最大为 N 的数字组合
+//  https://leetcode-cn.com/problems/numbers-at-most-n-given-digit-set/
 //  Created by baiya on 2020/2/24.
 //  Copyright © 2020 engleliu. All rights reserved.
 //

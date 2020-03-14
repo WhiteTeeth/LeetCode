@@ -2,6 +2,8 @@
 //  ValidUtf8.h
 //  CPlusTest
 //
+//  393. UTF-8 编码验证
+//  https://leetcode-cn.com/problems/utf-8-validation/
 //  Created by baiya on 2020/2/24.
 //  Copyright © 2020 engleliu. All rights reserved.
 //
@@ -14,8 +16,7 @@
 #include <string>
 using namespace std;
 
-bool validUtf8() {
-    int data[3] = {189, 128, 1};
+bool validUtf8(vector<int>& data) {
     int minArr[4] = {0x80, 0xC0, 0xE0, 0xF0};
     int maxArr[4] = {0xC0, 0xE0, 0xF0, 0xF8};
     int size = 3;

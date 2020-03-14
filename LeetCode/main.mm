@@ -24,6 +24,7 @@
 #import "leetcode/No.139.wordBreak.h"
 #import "leetcode/No.152.maxProduct.h"
 #import "leetcode/No.96.numTrees.h"
+#import "leetcode/No.221.maximalSquare.h"
 
 int main(int argc, const char * argr[]) {
     @autoreleasepool {
@@ -48,7 +49,8 @@ int main(int argc, const char * argr[]) {
 //        testLengthOfLIS();
 //        testWordBreak();
 //        testMaxProduct();
-        testNumTrees();
+//        testNumTrees();
+        testMaximalSquare();
         NSLog(@"test end");
     }
     return 0;
