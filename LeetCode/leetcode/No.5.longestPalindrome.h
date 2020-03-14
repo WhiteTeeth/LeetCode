@@ -2,6 +2,8 @@
 //  No.5.longestPalindrome.h
 //  LeetCode
 //
+//  5. 最长回文子串
+//  https://leetcode-cn.com/problems/longest-palindromic-substring/
 //  Created by baiya on 2020/3/15.
 //  Copyright © 2020 baiya. All rights reserved.
 //
