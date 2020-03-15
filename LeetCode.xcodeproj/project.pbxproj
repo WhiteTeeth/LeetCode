@@ -54,6 +54,7 @@
 		2DEB03AE241E1A05003832A0 /* No.238.productExceptSelf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.238.productExceptSelf.h; sourceTree = "<group>"; };
 		2DEB03AF241E2299003832A0 /* No.34.searchRange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.34.searchRange.h; sourceTree = "<group>"; };
 		2DEB03B0241E3BF4003832A0 /* No.56.merge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.56.merge.h; sourceTree = "<group>"; };
+		2DEB03B1241E972A003832A0 /* No.33.search.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.33.search.h; sourceTree = "<group>"; };
 		2DF386B12410292600068F4F /* No.78.subsets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.78.subsets.h; sourceTree = "<group>"; };
 		2DF386B224103ADF00068F4F /* No.338.countBits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.338.countBits.h; sourceTree = "<group>"; };
 		2DF386D8241123F700068F4F /* No.416.canPartition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.416.canPartition.h; sourceTree = "<group>"; };
@@ -109,8 +110,11 @@
 				2DEB03A9241D3D91003832A0 /* No.5.longestPalindrome.h */,
 				2D1BE2EF2407A3E3008A0141 /* No.15.threeSum.h */,
 				2D5A2AC0240E217B0040B2EC /* No.32.longestValidParentheses.h */,
+				2DEB03B1241E972A003832A0 /* No.33.search.h */,
+				2DEB03AF241E2299003832A0 /* No.34.searchRange.h */,
 				2D5715162404442200B2D245 /* No.42.Trap.h */,
 				2DEB03AA241D4ABA003832A0 /* No.48.rotate.h */,
+				2DEB03B0241E3BF4003832A0 /* No.56.merge.h */,
 				2DF386D9241133A600068F4F /* No.62.uniquePaths.h */,
 				2DF386DA24113A9A00068F4F /* No.64.minPathSum.h */,
 				2D87AC3D2407EB7500D180EA /* No.72.minDistance.h */,
@@ -137,8 +141,6 @@
 				2DDAD61D2406D65600C6E86D /* No.778.SwimInWater.hpp */,
 				2D5715152404442200B2D245 /* No.902.AtMostNGivenDigitSet.hpp */,
 				2D5715172404442200B2D245 /* No.927.ThreeEqualParts.hpp */,
-				2DEB03AF241E2299003832A0 /* No.34.searchRange.h */,
-				2DEB03B0241E3BF4003832A0 /* No.56.merge.h */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
