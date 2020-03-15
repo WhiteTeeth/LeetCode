@@ -15,6 +15,7 @@
 #include "Utils.h"
 
 // 左右乘积列表
+// TODO O(1) 的空间复杂度
 vector<int> productExceptSelf(vector<int>& nums) {
     int len = (int)nums.size();
     vector<int> left(len, 1);

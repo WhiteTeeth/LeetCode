@@ -28,6 +28,7 @@
 #import "leetcode/No.5.longestPalindrome.h"
 #import "leetcode/No.75.sortColors.h"
 #import "leetcode/No.238.productExceptSelf.h"
+#import "leetcode/No.34.searchRange.h"
 
 int main(int argc, const char * argr[]) {
     @autoreleasepool {
@@ -56,7 +57,8 @@ int main(int argc, const char * argr[]) {
 //        testMaximalSquare();
 //        testLongestPalindrome();
 //        testSortColors();
-        testProductExceptSelf();
+//        testProductExceptSelf();
+        testSearchRange();
         NSLog(@"test end");
     }
     return 0;
