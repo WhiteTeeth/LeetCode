@@ -48,6 +48,8 @@
 		2DEB03A8241D2A5B003832A0 /* No.221.maximalSquare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.221.maximalSquare.h; sourceTree = "<group>"; };
 		2DEB03A9241D3D91003832A0 /* No.5.longestPalindrome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.5.longestPalindrome.h; sourceTree = "<group>"; };
 		2DEB03AA241D4ABA003832A0 /* No.48.rotate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.48.rotate.h; sourceTree = "<group>"; };
+		2DEB03AB241E054C003832A0 /* No.75.sortColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.75.sortColors.h; sourceTree = "<group>"; };
+		2DEB03AC241E0834003832A0 /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 		2DF386B12410292600068F4F /* No.78.subsets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.78.subsets.h; sourceTree = "<group>"; };
 		2DF386B224103ADF00068F4F /* No.338.countBits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.338.countBits.h; sourceTree = "<group>"; };
 		2DF386D8241123F700068F4F /* No.416.canPartition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.416.canPartition.h; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 			children = (
 				2D571513240443F600B2D245 /* leetcode */,
 				2D57150C240443E700B2D245 /* main.mm */,
+				2DEB03AC241E0834003832A0 /* Utils.h */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -127,6 +130,7 @@
 				2D5715152404442200B2D245 /* No.902.AtMostNGivenDigitSet.hpp */,
 				2D5715172404442200B2D245 /* No.927.ThreeEqualParts.hpp */,
 				2DEB03AA241D4ABA003832A0 /* No.48.rotate.h */,
+				2DEB03AB241E054C003832A0 /* No.75.sortColors.h */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";

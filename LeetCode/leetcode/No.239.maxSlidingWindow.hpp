@@ -13,8 +13,7 @@
 
 #include <deque>
 #include <vector>
-#include <string>
-#include <sstream>
+#include "Utils.h"
 
 vector<int> maxSlidingWindow(vector<int>& nums, int k) {
     deque<int> ideq;
@@ -34,11 +33,6 @@ vector<int> maxSlidingWindow(vector<int>& nums, int k) {
         }
     }
     return result;
-}
-void printVector(vector<int> nums) {
-    std::ostringstream oss;
-    std::copy(nums.begin(), nums.end(), std::ostream_iterator<int>(oss, ","));
-    std::cout << oss.str() << std::endl;
 }
 
 void testNo239() {
