@@ -32,6 +32,7 @@
 #import "leetcode/No.56.merge.h"
 #import "leetcode/No.33.search.h"
 #import "leetcode/No.11.maxArea.h"
+#import "leetcode/No.55.canJump.h"
 
 int main(int argc, const char * argr[]) {
     @autoreleasepool {
@@ -64,7 +65,8 @@ int main(int argc, const char * argr[]) {
 //        testSearchRange();
 //        testMerge();
 //        testSearch();
-        testMaxArea();
+//        testMaxArea();
+        testCanJump();
         NSLog(@"test end");
     }
     return 0;
