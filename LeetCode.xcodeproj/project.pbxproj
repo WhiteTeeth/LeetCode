@@ -55,6 +55,7 @@
 		2DEB03AF241E2299003832A0 /* No.34.searchRange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.34.searchRange.h; sourceTree = "<group>"; };
 		2DEB03B0241E3BF4003832A0 /* No.56.merge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.56.merge.h; sourceTree = "<group>"; };
 		2DEB03B1241E972A003832A0 /* No.33.search.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.33.search.h; sourceTree = "<group>"; };
+		2DEB03B5241FD758003832A0 /* No.11.maxArea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.11.maxArea.h; sourceTree = "<group>"; };
 		2DF386B12410292600068F4F /* No.78.subsets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.78.subsets.h; sourceTree = "<group>"; };
 		2DF386B224103ADF00068F4F /* No.338.countBits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.338.countBits.h; sourceTree = "<group>"; };
 		2DF386D8241123F700068F4F /* No.416.canPartition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.416.canPartition.h; sourceTree = "<group>"; };
@@ -141,6 +142,7 @@
 				2DDAD61D2406D65600C6E86D /* No.778.SwimInWater.hpp */,
 				2D5715152404442200B2D245 /* No.902.AtMostNGivenDigitSet.hpp */,
 				2D5715172404442200B2D245 /* No.927.ThreeEqualParts.hpp */,
+				2DEB03B5241FD758003832A0 /* No.11.maxArea.h */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
