@@ -33,6 +33,7 @@
 #import "leetcode/No.33.search.h"
 #import "leetcode/No.11.maxArea.h"
 #import "leetcode/No.55.canJump.h"
+#import "leetcode/No.560.subarraySum.h"
 
 int main(int argc, const char * argr[]) {
     @autoreleasepool {
@@ -66,7 +67,8 @@ int main(int argc, const char * argr[]) {
 //        testMerge();
 //        testSearch();
 //        testMaxArea();
-        testCanJump();
+//        testCanJump();
+        testSubarraySum();
         NSLog(@"test end");
     }
     return 0;
