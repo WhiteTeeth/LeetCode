@@ -60,6 +60,7 @@
 		2DEB03B7241FE1B2003832A0 /* No.39.combinationSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.39.combinationSum.h; sourceTree = "<group>"; };
 		2DEB03B8241FEA59003832A0 /* No.560.subarraySum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.560.subarraySum.h; sourceTree = "<group>"; };
 		2DEB03B9241FF766003832A0 /* No.142.detectCycle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.142.detectCycle.h; sourceTree = "<group>"; };
+		2DEB03BA2421297A003832A0 /* No.17.letterCombinations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.17.letterCombinations.h; sourceTree = "<group>"; };
 		2DF386B12410292600068F4F /* No.78.subsets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.78.subsets.h; sourceTree = "<group>"; };
 		2DF386B224103ADF00068F4F /* No.338.countBits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.338.countBits.h; sourceTree = "<group>"; };
 		2DF386D8241123F700068F4F /* No.416.canPartition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.416.canPartition.h; sourceTree = "<group>"; };
@@ -151,6 +152,7 @@
 				2D5715172404442200B2D245 /* No.927.ThreeEqualParts.hpp */,
 				2DEB03B8241FEA59003832A0 /* No.560.subarraySum.h */,
 				2DEB03B9241FF766003832A0 /* No.142.detectCycle.h */,
+				2DEB03BA2421297A003832A0 /* No.17.letterCombinations.h */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
