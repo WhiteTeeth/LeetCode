@@ -39,6 +39,7 @@
 		2D5A2ABC240DFF910040B2EC /* No.128.longestConsecutive.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = No.128.longestConsecutive.hpp; sourceTree = "<group>"; };
 		2D5A2AC0240E217B0040B2EC /* No.32.longestValidParentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.32.longestValidParentheses.h; sourceTree = "<group>"; };
 		2D7E3D4C241CDDEA0096D893 /* No.152.maxProduct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.152.maxProduct.h; sourceTree = "<group>"; };
+		2D81A5702421480B0049068E /* No.215.findKthLargest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.215.findKthLargest.h; sourceTree = "<group>"; };
 		2D87AC3D2407EB7500D180EA /* No.72.minDistance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.72.minDistance.h; sourceTree = "<group>"; };
 		2D87AC4A2407FC6E00D180EA /* LeetCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeetCodeTests.m; sourceTree = "<group>"; };
 		2D87AC4C2407FC6E00D180EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -159,6 +160,7 @@
 				2DEB03BB24213196003832A0 /* No.46.permute.h */,
 				2DEB03BC2421375F003832A0 /* No.94.inorderTraversal.h */,
 				2DEB03BD24213ADC003832A0 /* No.114.flatten.h */,
+				2D81A5702421480B0049068E /* No.215.findKthLargest.h */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
