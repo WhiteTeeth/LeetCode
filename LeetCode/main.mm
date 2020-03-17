@@ -35,6 +35,7 @@
 #import "leetcode/No.55.canJump.h"
 #import "leetcode/No.560.subarraySum.h"
 #import "leetcode/No.17.letterCombinations.h"
+#import "leetcode/No.114.flatten.h"
 
 int main(int argc, const char * argr[]) {
     @autoreleasepool {
@@ -70,7 +71,8 @@ int main(int argc, const char * argr[]) {
 //        testMaxArea();
 //        testCanJump();
 //        testSubarraySum();
-        testLetterCombinations();
+//        testLetterCombinations();
+        testFlatten();
         NSLog(@"test end");
     }
     return 0;

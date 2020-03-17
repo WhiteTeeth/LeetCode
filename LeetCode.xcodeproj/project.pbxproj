@@ -63,6 +63,7 @@
 		2DEB03BA2421297A003832A0 /* No.17.letterCombinations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.17.letterCombinations.h; sourceTree = "<group>"; };
 		2DEB03BB24213196003832A0 /* No.46.permute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.46.permute.h; sourceTree = "<group>"; };
 		2DEB03BC2421375F003832A0 /* No.94.inorderTraversal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.94.inorderTraversal.h; sourceTree = "<group>"; };
+		2DEB03BD24213ADC003832A0 /* No.114.flatten.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.114.flatten.h; sourceTree = "<group>"; };
 		2DF386B12410292600068F4F /* No.78.subsets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.78.subsets.h; sourceTree = "<group>"; };
 		2DF386B224103ADF00068F4F /* No.338.countBits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.338.countBits.h; sourceTree = "<group>"; };
 		2DF386D8241123F700068F4F /* No.416.canPartition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.416.canPartition.h; sourceTree = "<group>"; };
@@ -157,6 +158,7 @@
 				2DEB03BA2421297A003832A0 /* No.17.letterCombinations.h */,
 				2DEB03BB24213196003832A0 /* No.46.permute.h */,
 				2DEB03BC2421375F003832A0 /* No.94.inorderTraversal.h */,
+				2DEB03BD24213ADC003832A0 /* No.114.flatten.h */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
