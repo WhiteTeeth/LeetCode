@@ -45,6 +45,7 @@
 		2D87AC4A2407FC6E00D180EA /* LeetCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeetCodeTests.m; sourceTree = "<group>"; };
 		2D87AC4C2407FC6E00D180EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DAE4CCB240AC664003A3E91 /* No.239.maxSlidingWindow.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = No.239.maxSlidingWindow.hpp; sourceTree = "<group>"; };
+		2DD34B6E24228C740053CF1E /* No.105.buildTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.105.buildTree.h; sourceTree = "<group>"; };
 		2DDAD61D2406D65600C6E86D /* No.778.SwimInWater.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = No.778.SwimInWater.hpp; sourceTree = "<group>"; };
 		2DDAD61F2406D7FD00C6E86D /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
 		2DEB03A8241D2A5B003832A0 /* No.221.maximalSquare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.221.maximalSquare.h; sourceTree = "<group>"; };
@@ -163,6 +164,7 @@
 				2D5715152404442200B2D245 /* No.902.AtMostNGivenDigitSet.hpp */,
 				2D5715172404442200B2D245 /* No.927.ThreeEqualParts.hpp */,
 				2D81A5712422868D0049068E /* No.739.dailyTemperatures.h */,
+				2DD34B6E24228C740053CF1E /* No.105.buildTree.h */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
