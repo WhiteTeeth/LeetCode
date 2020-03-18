@@ -36,6 +36,7 @@
 #import "leetcode/No.560.subarraySum.h"
 #import "leetcode/No.17.letterCombinations.h"
 #import "leetcode/No.114.flatten.h"
+#import "leetcode/No.739.dailyTemperatures.h"
 
 int main(int argc, const char * argr[]) {
     @autoreleasepool {
@@ -72,7 +73,8 @@ int main(int argc, const char * argr[]) {
 //        testCanJump();
 //        testSubarraySum();
 //        testLetterCombinations();
-        testFlatten();
+//        testFlatten();
+        testDailyTemperatures();
         NSLog(@"test end");
     }
     return 0;

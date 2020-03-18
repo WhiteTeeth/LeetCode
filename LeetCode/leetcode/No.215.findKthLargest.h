@@ -12,7 +12,7 @@
 #include <vector>
 #include <queue>
 
-// TODO 手写算法
+// TODO 手写有序链表算法
 int findKthLargest(vector<int>& nums, int k) {
     priority_queue<int,vector<int>,greater<int>> q;
     for(auto it:nums){
