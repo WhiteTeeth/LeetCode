@@ -11,12 +11,7 @@
 #ifndef No_114_flatten_h
 #define No_114_flatten_h
 
-struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-};
+#include "Utils.h"
 
 //TreeNode* flattenItem(TreeNode* node) {
 //    if (!node) return node;

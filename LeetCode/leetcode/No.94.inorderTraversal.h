@@ -12,13 +12,7 @@
 #define No_94_inorderTraversal_h
 
 #include <vector>
-
-struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-};
+#include "Utils.h"
 
 //TODO 迭代算法完成，栈辅助
 void middleOrder(vector<int> &result, TreeNode* node)

@@ -12,14 +12,9 @@
 #define No_105_buildTree_h
 
 #include <vector>
+#include "Utils.h"
 
 // TODO
-struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-};
 
 TreeNode* buildSubTree(vector<int>& preorder,
                        vector<int>& inorder,

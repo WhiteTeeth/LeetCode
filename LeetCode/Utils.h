@@ -13,6 +13,13 @@
 #include <string>
 #include <sstream>
 
+struct TreeNode {
+    int val;
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+};
+
 void printVector(vector<int> nums) {
     std::ostringstream oss;
     std::copy(nums.begin(), nums.end(), std::ostream_iterator<int>(oss, ","));
