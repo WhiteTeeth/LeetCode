@@ -11,11 +11,7 @@
 #ifndef No_142_detectCycle_h
 #define No_142_detectCycle_h
 
-struct ListNode {
-    int val;
-    ListNode *next;
-    ListNode(int x) : val(x), next(NULL) {}
-};
+#include "Utils.h"
 
 ListNode *detectCycle(ListNode *head) {
     if (!head) return NULL;
