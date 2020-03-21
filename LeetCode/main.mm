@@ -38,6 +38,7 @@
 #import "leetcode/No.114.flatten.h"
 #import "leetcode/No.739.dailyTemperatures.h"
 #import "leetcode/No.102.levelOrder.h"
+#import "leetcode/No.22.generateParenthesis.h"
 
 int main(int argc, const char * argr[]) {
     @autoreleasepool {
@@ -76,7 +77,8 @@ int main(int argc, const char * argr[]) {
 //        testLetterCombinations();
 //        testFlatten();
 //        testDailyTemperatures();
-        testLevelOrder();
+//        testLevelOrder();
+        testGenerateParenthesis();
         NSLog(@"test end");
     }
     return 0;

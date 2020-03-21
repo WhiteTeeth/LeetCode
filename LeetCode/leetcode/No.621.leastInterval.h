@@ -14,6 +14,7 @@
 #include <vector>
 
 // TODO 算法优化
+// https://leetcode-cn.com/problems/task-scheduler/solution/1-dai-zhi-xing-ci-shu-wei-zheng-duo-zhi-xing-ci-sh/
 int leastInterval(vector<char>& tasks, int n) {
     int taskCnt[26] = {0};
     for (int i = 0; i < tasks.size(); i++) {
