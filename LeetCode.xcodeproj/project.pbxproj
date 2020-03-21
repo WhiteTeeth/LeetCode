@@ -51,6 +51,7 @@
 		2DD34B712423CB640053CF1E /* No.200.numIslands.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.200.numIslands.h; sourceTree = "<group>"; };
 		2DD34B722423CDBC0053CF1E /* No.240.searchMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.240.searchMatrix.h; sourceTree = "<group>"; };
 		2DD34B73242603E00053CF1E /* No.79.exist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.79.exist.h; sourceTree = "<group>"; };
+		2DD34B742426166E0053CF1E /* No.394.decodeString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.394.decodeString.h; sourceTree = "<group>"; };
 		2DDAD61D2406D65600C6E86D /* No.778.SwimInWater.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = No.778.SwimInWater.hpp; sourceTree = "<group>"; };
 		2DDAD61F2406D7FD00C6E86D /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
 		2DEB03A8241D2A5B003832A0 /* No.221.maximalSquare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.221.maximalSquare.h; sourceTree = "<group>"; };
@@ -175,6 +176,7 @@
 				2DD34B712423CB640053CF1E /* No.200.numIslands.h */,
 				2DD34B722423CDBC0053CF1E /* No.240.searchMatrix.h */,
 				2DD34B73242603E00053CF1E /* No.79.exist.h */,
+				2DD34B742426166E0053CF1E /* No.394.decodeString.h */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
