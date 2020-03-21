@@ -38,6 +38,7 @@
 		2D5A2A95240D73490040B2EC /* No.84.largestRectangleArea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.84.largestRectangleArea.h; sourceTree = "<group>"; };
 		2D5A2ABC240DFF910040B2EC /* No.128.longestConsecutive.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = No.128.longestConsecutive.hpp; sourceTree = "<group>"; };
 		2D5A2AC0240E217B0040B2EC /* No.32.longestValidParentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.32.longestValidParentheses.h; sourceTree = "<group>"; };
+		2D7894CA24265AC500F2E7D7 /* No.98.isValidBST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.98.isValidBST.h; sourceTree = "<group>"; };
 		2D7E3D4C241CDDEA0096D893 /* No.152.maxProduct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.152.maxProduct.h; sourceTree = "<group>"; };
 		2D81A5702421480B0049068E /* No.215.findKthLargest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.215.findKthLargest.h; sourceTree = "<group>"; };
 		2D81A5712422868D0049068E /* No.739.dailyTemperatures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.739.dailyTemperatures.h; sourceTree = "<group>"; };
@@ -181,6 +182,7 @@
 				2DD34B742426166E0053CF1E /* No.394.decodeString.h */,
 				2DD34B75242620260053CF1E /* No.621.leastInterval.h */,
 				2DD34B7624264AC50053CF1E /* No.22.generateParenthesis.h */,
+				2D7894CA24265AC500F2E7D7 /* No.98.isValidBST.h */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
