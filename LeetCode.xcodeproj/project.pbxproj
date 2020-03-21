@@ -42,6 +42,7 @@
 		2D7894CB2426817600F2E7D7 /* No.31.nextPermutation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.31.nextPermutation.h; sourceTree = "<group>"; };
 		2D7894CC2426881500F2E7D7 /* No.49.groupAnagrams.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.49.groupAnagrams.h; sourceTree = "<group>"; };
 		2D7894CD24268C9C00F2E7D7 /* No.438.findAnagrams.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.438.findAnagrams.h; sourceTree = "<group>"; };
+		2D7894CE2426974900F2E7D7 /* No.347.topKFrequent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.347.topKFrequent.h; sourceTree = "<group>"; };
 		2D7E3D4C241CDDEA0096D893 /* No.152.maxProduct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.152.maxProduct.h; sourceTree = "<group>"; };
 		2D81A5702421480B0049068E /* No.215.findKthLargest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.215.findKthLargest.h; sourceTree = "<group>"; };
 		2D81A5712422868D0049068E /* No.739.dailyTemperatures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.739.dailyTemperatures.h; sourceTree = "<group>"; };
@@ -177,6 +178,7 @@
 				2D56B9F62418D84A0024DE41 /* No.309.maxProfit.h */,
 				2DF386DD241167E000068F4F /* No.322.coinChange.h */,
 				2DF386B224103ADF00068F4F /* No.338.countBits.h */,
+				2D7894CE2426974900F2E7D7 /* No.347.topKFrequent.h */,
 				2D5715142404442200B2D245 /* No.393.ValidUtf8.hpp */,
 				2DD34B742426166E0053CF1E /* No.394.decodeString.h */,
 				2DF386D8241123F700068F4F /* No.416.canPartition.h */,
