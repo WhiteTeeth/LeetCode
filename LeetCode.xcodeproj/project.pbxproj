@@ -39,6 +39,7 @@
 		2D5A2ABC240DFF910040B2EC /* No.128.longestConsecutive.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = No.128.longestConsecutive.hpp; sourceTree = "<group>"; };
 		2D5A2AC0240E217B0040B2EC /* No.32.longestValidParentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.32.longestValidParentheses.h; sourceTree = "<group>"; };
 		2D7894CA24265AC500F2E7D7 /* No.98.isValidBST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.98.isValidBST.h; sourceTree = "<group>"; };
+		2D7894CB2426817600F2E7D7 /* No.31.nextPermutation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.31.nextPermutation.h; sourceTree = "<group>"; };
 		2D7E3D4C241CDDEA0096D893 /* No.152.maxProduct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.152.maxProduct.h; sourceTree = "<group>"; };
 		2D81A5702421480B0049068E /* No.215.findKthLargest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.215.findKthLargest.h; sourceTree = "<group>"; };
 		2D81A5712422868D0049068E /* No.739.dailyTemperatures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.739.dailyTemperatures.h; sourceTree = "<group>"; };
@@ -132,6 +133,8 @@
 				2DEB03B5241FD758003832A0 /* No.11.maxArea.h */,
 				2D1BE2EF2407A3E3008A0141 /* No.15.threeSum.h */,
 				2DEB03BA2421297A003832A0 /* No.17.letterCombinations.h */,
+				2DD34B702423C84C0053CF1E /* No.19.removeNthFromEnd.h */,
+				2DD34B7624264AC50053CF1E /* No.22.generateParenthesis.h */,
 				2D5A2AC0240E217B0040B2EC /* No.32.longestValidParentheses.h */,
 				2DEB03B1241E972A003832A0 /* No.33.search.h */,
 				2DEB03AF241E2299003832A0 /* No.34.searchRange.h */,
@@ -146,9 +149,11 @@
 				2D87AC3D2407EB7500D180EA /* No.72.minDistance.h */,
 				2DEB03AB241E054C003832A0 /* No.75.sortColors.h */,
 				2DF386B12410292600068F4F /* No.78.subsets.h */,
+				2DD34B73242603E00053CF1E /* No.79.exist.h */,
 				2D5A2A95240D73490040B2EC /* No.84.largestRectangleArea.h */,
 				2DEB03BC2421375F003832A0 /* No.94.inorderTraversal.h */,
 				2DF386DB241140D300068F4F /* No.96.numTrees.h */,
+				2D7894CA24265AC500F2E7D7 /* No.98.isValidBST.h */,
 				2DD34B6F242293A40053CF1E /* No.102.levelOrder.h */,
 				2DD34B6E24228C740053CF1E /* No.105.buildTree.h */,
 				2DEB03BD24213ADC003832A0 /* No.114.flatten.h */,
@@ -156,10 +161,12 @@
 				2D56BA4D241B7ACA0024DE41 /* No.139.wordBreak.h */,
 				2DEB03B9241FF766003832A0 /* No.142.detectCycle.h */,
 				2D7E3D4C241CDDEA0096D893 /* No.152.maxProduct.h */,
+				2DD34B712423CB640053CF1E /* No.200.numIslands.h */,
 				2D81A5702421480B0049068E /* No.215.findKthLargest.h */,
 				2DEB03A8241D2A5B003832A0 /* No.221.maximalSquare.h */,
 				2DEB03AE241E1A05003832A0 /* No.238.productExceptSelf.h */,
 				2DAE4CCB240AC664003A3E91 /* No.239.maxSlidingWindow.hpp */,
+				2DD34B722423CDBC0053CF1E /* No.240.searchMatrix.h */,
 				2DF386DC2411637500068F4F /* No.279.numSquares.h */,
 				2DEB03AD241E118F003832A0 /* No.287.findDuplicate.h */,
 				2D56BA0224194F610024DE41 /* No.300.lengthOfLIS.h */,
@@ -167,22 +174,17 @@
 				2DF386DD241167E000068F4F /* No.322.coinChange.h */,
 				2DF386B224103ADF00068F4F /* No.338.countBits.h */,
 				2D5715142404442200B2D245 /* No.393.ValidUtf8.hpp */,
+				2DD34B742426166E0053CF1E /* No.394.decodeString.h */,
 				2DF386D8241123F700068F4F /* No.416.canPartition.h */,
 				2D56B9A82417DD860024DE41 /* No.494.findTargetSumWays.h */,
 				2DEB03B8241FEA59003832A0 /* No.560.subarraySum.h */,
+				2DD34B75242620260053CF1E /* No.621.leastInterval.h */,
 				2D56B9D02418A72D0024DE41 /* No.647.countSubstrings.h */,
 				2D81A5712422868D0049068E /* No.739.dailyTemperatures.h */,
 				2DDAD61D2406D65600C6E86D /* No.778.SwimInWater.hpp */,
 				2D5715152404442200B2D245 /* No.902.AtMostNGivenDigitSet.hpp */,
 				2D5715172404442200B2D245 /* No.927.ThreeEqualParts.hpp */,
-				2DD34B702423C84C0053CF1E /* No.19.removeNthFromEnd.h */,
-				2DD34B712423CB640053CF1E /* No.200.numIslands.h */,
-				2DD34B722423CDBC0053CF1E /* No.240.searchMatrix.h */,
-				2DD34B73242603E00053CF1E /* No.79.exist.h */,
-				2DD34B742426166E0053CF1E /* No.394.decodeString.h */,
-				2DD34B75242620260053CF1E /* No.621.leastInterval.h */,
-				2DD34B7624264AC50053CF1E /* No.22.generateParenthesis.h */,
-				2D7894CA24265AC500F2E7D7 /* No.98.isValidBST.h */,
+				2D7894CB2426817600F2E7D7 /* No.31.nextPermutation.h */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
