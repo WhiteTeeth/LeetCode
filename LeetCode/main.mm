@@ -41,6 +41,8 @@
 #import "leetcode/No.22.generateParenthesis.h"
 #import "leetcode/No.31.nextPermutation.h"
 
+#import "Student.h"
+
 int main(int argc, const char * argr[]) {
     @autoreleasepool {
         // insert code here...
@@ -80,8 +82,10 @@ int main(int argc, const char * argr[]) {
 //        testDailyTemperatures();
 //        testLevelOrder();
 //        testGenerateParenthesis();
-        testNextPermutation();
+//        testNextPermutation();
         NSLog(@"test end");
+        
+        [Student.new name];
     }
     return 0;
 }
