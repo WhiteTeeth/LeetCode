@@ -40,8 +40,7 @@
 #import "leetcode/No.102.levelOrder.h"
 #import "leetcode/No.22.generateParenthesis.h"
 #import "leetcode/No.31.nextPermutation.h"
-
-#import "Student.h"
+#import "leetcode/No.50.myPow.h"
 
 int main(int argc, const char * argr[]) {
     @autoreleasepool {
@@ -82,10 +81,10 @@ int main(int argc, const char * argr[]) {
 //        testDailyTemperatures();
 //        testLevelOrder();
 //        testGenerateParenthesis();
-//        testNextPermutation();
+        testNextPermutation();
         NSLog(@"test end");
         
-        [Student.new name];
+        testMyPow();
     }
     return 0;
 }
