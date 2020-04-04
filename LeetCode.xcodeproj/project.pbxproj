@@ -58,6 +58,7 @@
 		2DAE4CCB240AC664003A3E91 /* No.239.maxSlidingWindow.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = No.239.maxSlidingWindow.hpp; sourceTree = "<group>"; };
 		2DD1DCC624363C99006F1231 /* No.406.reconstructQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.406.reconstructQueue.h; sourceTree = "<group>"; };
 		2DD1DCED2437815D006F1231 /* No.50.myPow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.50.myPow.h; sourceTree = "<group>"; };
+		2DD1DCEE2438BEED006F1231 /* No.92.reverseBetween.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.92.reverseBetween.h; sourceTree = "<group>"; };
 		2DD34B6E24228C740053CF1E /* No.105.buildTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.105.buildTree.h; sourceTree = "<group>"; };
 		2DD34B6F242293A40053CF1E /* No.102.levelOrder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.102.levelOrder.h; sourceTree = "<group>"; };
 		2DD34B702423C84C0053CF1E /* No.19.removeNthFromEnd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.19.removeNthFromEnd.h; sourceTree = "<group>"; };
@@ -166,6 +167,7 @@
 				2DF386B12410292600068F4F /* No.78.subsets.h */,
 				2DD34B73242603E00053CF1E /* No.79.exist.h */,
 				2D5A2A95240D73490040B2EC /* No.84.largestRectangleArea.h */,
+				2DD1DCEE2438BEED006F1231 /* No.92.reverseBetween.h */,
 				2DEB03BC2421375F003832A0 /* No.94.inorderTraversal.h */,
 				2DF386DB241140D300068F4F /* No.96.numTrees.h */,
 				2D7894CA24265AC500F2E7D7 /* No.98.isValidBST.h */,
