@@ -68,6 +68,7 @@
 		2DD34B742426166E0053CF1E /* No.394.decodeString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.394.decodeString.h; sourceTree = "<group>"; };
 		2DD34B75242620260053CF1E /* No.621.leastInterval.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.621.leastInterval.h; sourceTree = "<group>"; };
 		2DD34B7624264AC50053CF1E /* No.22.generateParenthesis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.22.generateParenthesis.h; sourceTree = "<group>"; };
+		2DD7664F2443901600E3B4EB /* No.61.rotateRight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.61.rotateRight.h; sourceTree = "<group>"; };
 		2DDAD61D2406D65600C6E86D /* No.778.SwimInWater.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = No.778.SwimInWater.hpp; sourceTree = "<group>"; };
 		2DDAD61F2406D7FD00C6E86D /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
 		2DEB03A8241D2A5B003832A0 /* No.221.maximalSquare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.221.maximalSquare.h; sourceTree = "<group>"; };
@@ -162,6 +163,7 @@
 				2DF11F1C243CF1960063CA94 /* No.54.spiralOrder.h */,
 				2DEB03B6241FDAE1003832A0 /* No.55.canJump.h */,
 				2DEB03B0241E3BF4003832A0 /* No.56.merge.h */,
+				2DD7664F2443901600E3B4EB /* No.61.rotateRight.h */,
 				2DF386D9241133A600068F4F /* No.62.uniquePaths.h */,
 				2DF386DA24113A9A00068F4F /* No.64.minPathSum.h */,
 				2D87AC3D2407EB7500D180EA /* No.72.minDistance.h */,
