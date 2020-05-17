@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2D57150D240443E700B2D245 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2D57150C240443E700B2D245 /* main.mm */; };
+		2DFAA87E2457452400124925 /* LeetCodeTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2DFAA87D2457452400124925 /* LeetCodeTests.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,8 +54,6 @@
 		2D81A5702421480B0049068E /* No.215.findKthLargest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.215.findKthLargest.h; sourceTree = "<group>"; };
 		2D81A5712422868D0049068E /* No.739.dailyTemperatures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.739.dailyTemperatures.h; sourceTree = "<group>"; };
 		2D87AC3D2407EB7500D180EA /* No.72.minDistance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.72.minDistance.h; sourceTree = "<group>"; };
-		2D87AC4A2407FC6E00D180EA /* LeetCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeetCodeTests.m; sourceTree = "<group>"; };
-		2D87AC4C2407FC6E00D180EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DAE4CCB240AC664003A3E91 /* No.239.maxSlidingWindow.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = No.239.maxSlidingWindow.hpp; sourceTree = "<group>"; };
 		2DD1DCC624363C99006F1231 /* No.406.reconstructQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.406.reconstructQueue.h; sourceTree = "<group>"; };
 		2DD1DCED2437815D006F1231 /* No.50.myPow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.50.myPow.h; sourceTree = "<group>"; };
@@ -99,10 +98,21 @@
 		2DF386DB241140D300068F4F /* No.96.numTrees.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.96.numTrees.h; sourceTree = "<group>"; };
 		2DF386DC2411637500068F4F /* No.279.numSquares.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.279.numSquares.h; sourceTree = "<group>"; };
 		2DF386DD241167E000068F4F /* No.322.coinChange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.322.coinChange.h; sourceTree = "<group>"; };
+		2DFAA876245744A500124925 /* No.226.invertTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No.226.invertTree.h; sourceTree = "<group>"; };
+		2DFAA87B2457452400124925 /* LeetCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DFAA87D2457452400124925 /* LeetCodeTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = LeetCodeTests.mm; sourceTree = "<group>"; };
+		2DFAA87F2457452400124925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		2D571506240443E700B2D245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DFAA8782457452400124925 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -116,7 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				2D57150B240443E700B2D245 /* LeetCode */,
-				2D87AC492407FC6E00D180EA /* LeetCodeTests */,
+				2DFAA87C2457452400124925 /* LeetCodeTests */,
 				2D57150A240443E700B2D245 /* Products */,
 				2DDAD61E2406D7FD00C6E86D /* Frameworks */,
 			);
@@ -126,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				2D571509240443E700B2D245 /* LeetCode */,
+				2DFAA87B2457452400124925 /* LeetCodeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -188,6 +199,7 @@
 				2D7894D02427669900F2E7D7 /* No.208.Trie.h */,
 				2D81A5702421480B0049068E /* No.215.findKthLargest.h */,
 				2DEB03A8241D2A5B003832A0 /* No.221.maximalSquare.h */,
+				2DFAA876245744A500124925 /* No.226.invertTree.h */,
 				2D7894CF24275A6500F2E7D7 /* No.236.lowestCommonAncestor.h */,
 				2DEB03AE241E1A05003832A0 /* No.238.productExceptSelf.h */,
 				2DAE4CCB240AC664003A3E91 /* No.239.maxSlidingWindow.hpp */,
@@ -217,21 +229,21 @@
 			path = leetcode;
 			sourceTree = "<group>";
 		};
-		2D87AC492407FC6E00D180EA /* LeetCodeTests */ = {
-			isa = PBXGroup;
-			children = (
-				2D87AC4A2407FC6E00D180EA /* LeetCodeTests.m */,
-				2D87AC4C2407FC6E00D180EA /* Info.plist */,
-			);
-			path = LeetCodeTests;
-			sourceTree = "<group>";
-		};
 		2DDAD61E2406D7FD00C6E86D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				2DDAD61F2406D7FD00C6E86D /* libc++.1.tbd */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DFAA87C2457452400124925 /* LeetCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DFAA87D2457452400124925 /* LeetCodeTests.mm */,
+				2DFAA87F2457452400124925 /* Info.plist */,
+			);
+			path = LeetCodeTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,6 +266,23 @@
 			productReference = 2D571509240443E700B2D245 /* LeetCode */;
 			productType = "com.apple.product-type.tool";
 		};
+		2DFAA87A2457452400124925 /* LeetCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DFAA8802457452400124925 /* Build configuration list for PBXNativeTarget "LeetCodeTests" */;
+			buildPhases = (
+				2DFAA8772457452400124925 /* Sources */,
+				2DFAA8782457452400124925 /* Frameworks */,
+				2DFAA8792457452400124925 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeetCodeTests;
+			productName = LeetCodeTests;
+			productReference = 2DFAA87B2457452400124925 /* LeetCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -265,6 +294,9 @@
 				TargetAttributes = {
 					2D571508240443E700B2D245 = {
 						CreatedOnToolsVersion = 11.3.1;
+					};
+					2DFAA87A2457452400124925 = {
+						CreatedOnToolsVersion = 11.4.1;
 					};
 				};
 			};
@@ -282,9 +314,20 @@
 			projectRoot = "";
 			targets = (
 				2D571508240443E700B2D245 /* LeetCode */,
+				2DFAA87A2457452400124925 /* LeetCodeTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DFAA8792457452400124925 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2D571505240443E700B2D245 /* Sources */ = {
@@ -292,6 +335,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D57150D240443E700B2D245 /* main.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DFAA8772457452400124925 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DFAA87E2457452400124925 /* LeetCodeTests.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +478,42 @@
 			};
 			name = Release;
 		};
+		2DFAA8812457452400124925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FHNQ2RKUUR;
+				INFOPLIST_FILE = LeetCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baiya.LeetCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2DFAA8822457452400124925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FHNQ2RKUUR;
+				INFOPLIST_FILE = LeetCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baiya.LeetCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -444,6 +531,15 @@
 			buildConfigurations = (
 				2D571511240443E700B2D245 /* Debug */,
 				2D571512240443E700B2D245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DFAA8802457452400124925 /* Build configuration list for PBXNativeTarget "LeetCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DFAA8812457452400124925 /* Debug */,
+				2DFAA8822457452400124925 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
